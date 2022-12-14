@@ -6,20 +6,48 @@
   <meta name="viewport" content="width=device-width">
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/nav.css">
+  <link rel="stylesheet" href="css/forms.css">
+   <style>
+      .hamlet
+      {
+        /* background-color: yellow; */
+      }
+
+      #play span
+      {
+        /*background-color: green; */
+      }
+   </style>
+
+
 
  </head>
  <body>
      <header>
-     <h1 class="page-header">Site Page</h1>
+     <h1 class="page-header">DOM play</h1>
         <nav class="topnav" id="myTopnav">
-            
-        </nav>
+            <a href="index.html" class="active">Home</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()"></a>
+         </nav>
      </header>
      
    <main class="wrapper">
-   <p>Clever content goes here</p>
-   <p>Clever content goes here</p>
-   <p>Clever content goes here</p>
+    <div id="play">
+   <p><span data-actor="narrator">Narrator :According to all known laws of aviation,there is no way a bee should be able to fly. Its wings are too small to get its fat little body off the ground. The bee, of course, flies anyway because bees don't care
+what humans think is impossible.</span></p>
+   <p><span data-actor="barry">Barry: Yellow, black. Yellow, black. Yellow, black. Yellow, black. Ooh, black and yellow!   Let's shake it up a little.</span></p>
+   <p><span data-actor="mom">Barry's mom: Barry! Breakfast is ready! </span></p>
+   <p><span data-actor="barry">Barry: Coming! </span></p>
+   <p>*phone rings*</p>
+   <p><span data-actor="barry">Barry: Hello? </span></p>
+   <p><span data-actor="adam">Adam: Barry? </span></p>
+   <p><span data-actor="barry">Barry: Adam? </span></p>
+   <p><span data-actor="adam">Adam: Can you believe this is happening? </span></p>
+   <p><span data-actor="barry">Barry: I can't. I'll pick you up. </span></p>
+   <p><span data-actor="mom">Barry's mom: Barry why don't you use the stairs? Your father paid good money for those.
+  <p><span data-actor="barry">Barry: Sorry. I'm excited. </span></p>
+    </span></p>
+  </div>
     </footer>
   </main>
      
